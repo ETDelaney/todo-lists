@@ -1,0 +1,29 @@
+V1 requirements
+1) It should have a place to store todos
+
+a) list in js is called an array...
+b) you should open 'inspect' and go to the console
+c) and then to define the array:
+var todos = ['item 1', 'item 2', 'item 3']
+
+2) It should have a way to display todos
+a) use console.log()
+b) this is similar to print() in python
+c) so you can do...
+d) console.log('My todos: ', todos)
+
+3) It should have a way to add new todos
+a) use... self.push() 
+b) ex.... todos.push('item 4')
+c) push can be though of as pushing a new item to end (just like in version control)
+
+4) It should have a way to change a todo
+a) you can use a slice notation... it is 0-indexed
+b) todos[0] will give us "item 1"
+c) and then to change that item...
+d) todos[0] = 'item 1 updated'
+
+5) It should have a way to delete a todo
+a) use... self.splice(position to start deleting, how many items to delete from that position onwards)
+b) todos.splice(0,1) will delete first item in list and only the first item
+c) todos.splice(0,2) will delete the first and second items in a list
